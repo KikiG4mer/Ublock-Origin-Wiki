@@ -6,7 +6,7 @@ In 2024, Google forcibly migrated Chrome extensions to Manifest V3 (MV3) — a n
 
 Chromium-based browsers that followed Google's lead (Edge, Opera, Brave in some configs) have the same issue. Firefox, being Firefox, said "nah" and kept MV2 support. Legends.
 
-::: warning 
- **Important:** uBlock Origin Lite exists as an MV3 version but has significantly reduced filtering capabilities. It is not the same product.
+::: danger  **Important:**
+  uBlock Origin Lite exists as an MV3 version but has significantly reduced filtering capabilities. It is not the same product.
  :::
 

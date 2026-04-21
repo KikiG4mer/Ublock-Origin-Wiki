@@ -44,6 +44,55 @@
  * -------------------------------------------------------------------------- */
 
 
+ /* ------------Theme Colors------------- 
+
+Main Red :
+Highlight Red :
+Icon Red :
+Alt Red :
+
+ -------------------------------------- */
+ @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+ /* -- Titles -- */
+
+ h3 {
+  color: #a32424;
+}
+ /* ------------------------------------- */
+
+ ::selection {
+  background-color: #a61616b4;
+  color: inherit;
+}
+
+
+ /* -- Google Material Symbols -- */
+ .ms {
+  font-family: 'Material Symbols Rounded';
+  font-style: normal;
+  font-size: 1.2em;
+  vertical-align: middle;
+  line-height: 1;
+  display: inline-block;
+  color: #a32424;
+}
+
+
+
+ /* ------------------------------------- */
+ 
+ 
+ /* -- Custom Font -- */
+
+:root {
+  --vp-font-family-base: 'Exo', sans-serif;
+}
+ /* ------------------------------------- */
+
+
  /* -- Disable Search bar in homepage -- */
  body:has(.VPHome) .VPNavBarSearch {
   display: none;
@@ -56,9 +105,9 @@
   --vp-c-default-3: var(--vp-c-gray-3);
   --vp-c-default-soft: var(--vp-c-gray-soft);
 
-  --vp-c-brand-1: #920c0c ; /* var(--vp-c-indigo-1) */
-  --vp-c-brand-2: #250404 ; /* var(--vp-c-indigo-2) */
-  --vp-c-brand-3: #551010 ; /* var(--vp-c-indigo-3) */
+  --vp-c-brand-1: #a32424 ; /* var(--vp-c-indigo-1) Hyper links */
+  --vp-c-brand-2: #d13636 ; /* var(--vp-c-indigo-2)  Hover */
+  --vp-c-brand-3: #a32424 ; /* var(--vp-c-indigo-3) Button color */
   --vp-c-brand-soft: var(--vp-c-indigo-soft);
 
   --vp-c-tip-1: var(--vp-c-brand-1);
@@ -76,6 +125,34 @@
   --vp-c-danger-3: var(--vp-c-red-3);
   --vp-c-danger-soft: var(--vp-c-red-soft);
 }
+
+ /* -- Callout Colors -- */
+
+  /* -- Info Callout Color -- */
+.custom-block.info code {
+    background-color: #15a4cf29;
+}
+.custom-
+.custom-block.info a, .custom-block.info code {
+    color: #0ca3c9;
+}
+block.info a:hover, .custom-block.info a:hover > code {
+    color: #03647c;
+}
+
+ /* -- tip Callout Color -- */
+.custom-block.tip code {
+    background-color: #1bcf1529;
+}
+.custom-block.tip a, .custom-block.tip code {
+    color: #0cb623;
+}
+.custom-block.tip a:hover, .custom-block.tip a:hover > code {
+    color: #025a24;
+}
+
+
+ /* ------------------------------------- */
 
 /**
  * Component: Button
@@ -104,13 +181,15 @@
     #fe3434 30%,
     #640303
   );
-
+/**
   --vp-home-hero-image-background-image: linear-gradient(
     -45deg,
-    #bd34fe 50%,
-    #47caff 50%
+    #fe343463 50%,
+    #ff47475d 50%
   );
   --vp-home-hero-image-filter: blur(44px);
+**/
+
 }
 
 @media (min-width: 640px) {
@@ -147,24 +226,25 @@
 /*--------------------- Callout Boxes -------------------------------- */
 
 /*----red warning box----*/
-:root {
-  --my-warning-bg: #ffa2a2;
-  --my-warning-border: #ff3f3f;
-} 
 
-.dark {
-  --my-warning-bg: #291717;
-  --my-warning-border: #3f1717af;
+.vp-doc .custom-block.danger {
+  background-color: #ff272711 ;
+  border-color: #751c1c41; ;
 }
 
 .vp-doc .custom-block.warning {
-  background-color: var(--my-warning-bg);
-  border-color: var(--my-warning-border);
-} 
+  background-color: #ffa92711 ;
+  border-color: #75561c41; ;
+}
 
-.vp-doc .custom-block.warning {
-  background-color: #ff272711 ;
-  border-color: #751c1c41; ;
+.vp-doc .custom-block.tip {
+  background-color: #52ff2711 ;
+  border-color: #2b751c41; ;
+}
+
+.vp-doc .custom-block.info {
+  background-color: #27dfff11 ;
+  border-color: #1c757541; ;
 }
 
 /*--------------*/

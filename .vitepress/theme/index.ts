@@ -3,6 +3,8 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 import CompatibilityTable from './CompatibilityTable.vue'
+import BrowserCards from './BrowserCards.vue'
+import Icon from './Icons.vue'
 
 export default {
   extends: DefaultTheme,
@@ -13,5 +15,8 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     app.component('CompatibilityTable', CompatibilityTable)
+    app.component('BrowserCards', BrowserCards)
+    app.component('Icon', Icon)
+
   }
 } satisfies Theme
