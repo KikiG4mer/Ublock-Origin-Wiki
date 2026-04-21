@@ -50,7 +50,7 @@ Unzip the downloaded file to a folder of your choice.
 Chrome loads the extension directly from it. If you delete or move it, Chrome will lose the extension and you'll have to re-add it. Store it somewhere stable like ```C:\Program Files``` or a dedicated folder in your Documents — somewhere you won't accidentally clean up during a storage purge.
 :::
 
-:::info <Icon name="folder_zip" color='#30a3e6' /> Don't have ```a zip program? Grab one ```of these — all free, all trusted:
+:::info <Icon name="folder_zip" color='#30a3e6' /> Don't have a zip program? Grab one of these — all free, all trusted:
 
 <div style="display:flex;align-items:center;gap:5px;"><img src="https://cdn.worldvectorlogo.com/logos/7-zip.svg" width="22" /><span><b>7-Zip</b> — free, open source, handles everything</span><a href="https://7-zip.org/download.html" >7-zip.org</a></div>
 
