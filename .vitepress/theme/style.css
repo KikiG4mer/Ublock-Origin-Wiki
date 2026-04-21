@@ -132,11 +132,11 @@ Alt Red :
 .custom-block.info code {
     background-color: #15a4cf29;
 }
-.custom-
+
 .custom-block.info a, .custom-block.info code {
     color: #0ca3c9;
 }
-block.info a:hover, .custom-block.info a:hover > code {
+.custom-block.info a:hover, .custom-block.info a:hover > code {
     color: #03647c;
 }
 
