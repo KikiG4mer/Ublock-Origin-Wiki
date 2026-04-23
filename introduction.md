@@ -1,3 +1,5 @@
+<div class="background-banner"></div>
+
 # Introduction into the problem
 
 ## Why Can't I Just Install It?

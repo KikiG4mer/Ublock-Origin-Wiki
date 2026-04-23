@@ -6,7 +6,7 @@ hero:
   name: "Ublock Origin"
   text: "Install uBlock Origin Anywhere. Period."
   tagline:
-  image: 'assets/banner.png'
+  image: 'assets/banner.svg'
 
   actions:
     - theme: brand
@@ -29,3 +29,11 @@ features:
     details: You can add your own filters or use community lists (like EasyList) to customize exactly what gets blocked.
 ---
 
+<WideCard
+  image="/assets/banner2.png"
+  imageWidth="250px"
+  title=""
+  text="uBlock Origin is a free, open-source browser extension that blocks ads, trackers, and malicious websites. It’s lightweight, highly customizable, and uses filter lists to prevent unwanted content from loading—making pages faster, cleaner, and more private."
+  buttonText="Get Started"
+  buttonLink="/browser-selection"
+/>

@@ -32,37 +32,37 @@ import { browsers } from './browserData'
             <td><span class="badge badge-green">Easy</span></td>
           </tr>
           <tr>
-            <td><img class="b-icon" src="https://cdn.worldvectorlogo.com/logos/chrome-modern-.svg" alt="Chrome"> Chrome 127+</td>
+            <td><img class="b-icon" src="/assets/browser_icons/chrome.svg" alt="Chrome">  Chrome 127+</td>
             <td><span class="badge badge-red">✗ MV3 Only</span></td>
             <td>Developer Mode sideload</td>
             <td><span class="badge badge-yellow">Medium</span></td>
           </tr>
           <tr>
-            <td><img class="b-icon" src="https://cdn.worldvectorlogo.com/logos/microsoft-edge-1.svg" alt="Edge"> Edge</td>
+            <td><img class="b-icon" src="/assets/browser_icons/edge.svg" alt="Edge">  Edge</td>
             <td><span class="badge badge-yellow">⚠ Partial</span></td>
             <td>Developer Mode or Edge Add-ons</td>
             <td><span class="badge badge-yellow">Medium</span></td>
           </tr>
           <tr>
-            <td><img class="b-icon" src="https://www.svgrepo.com/show/378777/brave-2.svg" alt="Brave"> Brave</td>
+            <td><img class="b-icon" src="/assets/browser_icons/brave.svg" alt="Brave">  Brave</td>
             <td><span class="badge badge-green">✓ Full</span></td>
             <td>Chrome Web Store (MV2 still works)</td>
             <td><span class="badge badge-green">Easy</span></td>
           </tr>
           <tr>
-            <td><img class="b-icon" src="https://cdn.worldvectorlogo.com/logos/firefox-6.svg" alt="Firefox ESR"> Firefox ESR</td>
+            <td><img class="b-icon" src="/assets/browser_icons/firefox.svg" alt="Firefox "> Firefox</td>
             <td><span class="badge badge-green">✓ Full</span></td>
             <td>Official Add-ons Store</td>
             <td><span class="badge badge-green">Easy</span></td>
           </tr>
           <tr>
-            <td><img class="b-icon" src="https://cdn.worldvectorlogo.com/logos/safari-3.svg" alt="Safari"> Safari</td>
+            <td><img class="b-icon" src="/assets/browser_icons/safari.svg" alt="Safari">  Safari</td>
             <td><span class="badge badge-red">✗ Not Available</span></td>
             <td>AdGuard for Safari instead</td>
             <td><span class="badge badge-yellow">Medium</span></td>
           </tr>
           <tr>
-            <td><img class="b-icon" src="https://cdn.worldvectorlogo.com/logos/opera-2.svg" alt="Opera"> Opera/GX</td>
+            <td><img class="b-icon" src="/assets/browser_icons/opera.svg" alt="Opera">  Opera/GX</td>
             <td><span class="badge badge-red">✗ MV3 Only</span></td>
             <td>Use Firefox or Brave instead</td>
             <td>—</td>

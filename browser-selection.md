@@ -1,7 +1,8 @@
+<div class="background-banner" style="--banner-image: url('/assets/banner.svg')"></div>
+
 # Select your browser
 
 <BrowserCards />
-
 
 
 

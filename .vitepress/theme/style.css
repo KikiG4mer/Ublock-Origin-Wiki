@@ -56,6 +56,28 @@ Alt Red :
  @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+ /* -- Background -- */
+
+.background-banner {
+  position: fixed;
+  inset: 0;
+  background-image: var(--banner-image);
+  background-size: 900px;
+  background-repeat: no-repeat;
+  background-position: 100% center;
+  pointer-events: none;
+  z-index: -1;
+  filter: grayscale(100%);
+  opacity: var(--banner-opacity-light, 0.02);
+}
+
+.dark .background-banner {
+  opacity: var(--banner-opacity-dark, 0.3);
+}
+ /* ------------------------------------- */
+
+
+
  /* -- Titles -- */
 
  h3 {
@@ -80,6 +102,10 @@ Alt Red :
   color: #a32424;
 }
 
+.custom-block.warning .ms { color: #e6a030; }
+.custom-block.danger .ms { color: #e63030; }
+.custom-block.tip .ms { color: #30c060; }
+.custom-block.info .ms { color: #30a3e6; }
 
 
  /* ------------------------------------- */

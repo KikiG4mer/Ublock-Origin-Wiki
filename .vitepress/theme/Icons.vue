@@ -7,7 +7,7 @@ defineProps({
   name: String,
   color: {
     type: String,
-    default: '#6d1616'
+    default: 'null'
   }
 })
 </script>
